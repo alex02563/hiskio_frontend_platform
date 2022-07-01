@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__icon_linkedin" width="28" height="28" data-name="icon/linkedin" viewBox="0 0 28 28">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#fff}
+        </style>
+    </defs>
+    <path id="prefix__rect2989" d="M3.828 0h20.344A3.828 3.828 0 0 1 28 3.828v20.344A3.828 3.828 0 0 1 24.172 28H3.828A3.828 3.828 0 0 1 0 24.172V3.828A3.828 3.828 0 0 1 3.828 0z" transform="rotate(180 14 14)" style="fill:#017bbe"/>
+    <g id="prefix__g2987" transform="translate(4.088 4.195)">
+        <path id="prefix__rect3163" d="M0 0H4.332V13.416H0z" class="prefix__cls-2" transform="translate(0 6.194)"/>
+        <path id="prefix__path3165" d="M138.28 139.948a2.131 2.131 0 1 0-2.152-2.131 2.142 2.142 0 0 0 2.152 2.131z" class="prefix__cls-2" transform="translate(-136.086 -135.686)"/>
+        <path id="prefix__path3167" d="M261.548 251.473a6.353 6.353 0 0 0-1.548-4.694c-.883-.873-1.33-1.284-3.48-1.284a5.381 5.381 0 0 0-3.989 2.007v-1.965h-4.413v13.284h4.413v-7.573a2.039 2.039 0 0 1 2.104-2.248 2.519 2.519 0 0 1 2.5 2.669v7.152h4.414v-7.348z" class="prefix__cls-2" transform="translate(-241.729 -239.276)"/>
+    </g>
+</svg>

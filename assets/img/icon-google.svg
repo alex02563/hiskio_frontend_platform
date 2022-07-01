@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+    <g id="prefix__icon_google" data-name="icon/google" transform="translate(0 .41)">
+        <g id="prefix__Google">
+            <path id="prefix__矩形_1148" d="M0 0H28V28H0z" data-name="矩形 1148" transform="translate(0 -.41)" style="fill:none"/>
+            <path id="prefix__路径_958" d="M7.017 41.759a8.156 8.156 0 0 1 .415-2.559l-4.649-3.55a13.89 13.89 0 0 0 0 12.218l4.647-3.557a8.161 8.161 0 0 1-.41-2.55" data-name="路径 958" transform="translate(-1.072 -27.964)" style="fill-rule:evenodd;fill:#fbbc05"/>
+            <path id="prefix__路径_959" d="M20.336 5.644a7.994 7.994 0 0 1 5.086 1.818l4.019-4.013a13.806 13.806 0 0 0-21.5 4.235l4.649 3.55a8.141 8.141 0 0 1 7.749-5.591" data-name="路径 959" transform="translate(-6.227)" style="fill:#ea4335;fill-rule:evenodd"/>
+            <path id="prefix__路径_960" d="M20.336 81.472a8.141 8.141 0 0 1-7.749-5.591l-4.649 3.55a13.773 13.773 0 0 0 12.4 7.685 13.165 13.165 0 0 0 9-3.438l-4.413-3.412a8.546 8.546 0 0 1-4.588 1.206" data-name="路径 960" transform="translate(-6.227 -59.525)" style="fill:#34a853;fill-rule:evenodd"/>
+            <path id="prefix__路径_961" d="M78.644 54.872a11.426 11.426 0 0 0-.314-2.508H65.457v5.33h7.41a6.212 6.212 0 0 1-2.822 4.123l4.413 3.412a13.72 13.72 0 0 0 4.186-10.357" data-name="路径 961" transform="translate(-51.348 -41.077)" style="fill:#4285f4;fill-rule:evenodd"/>
+        </g>
+    </g>
+</svg>
