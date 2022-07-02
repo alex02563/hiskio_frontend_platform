@@ -1,69 +1,40 @@
-# hiskio_frontend_platform
+# hiskio_frontend_platform 徵才測驗
+#### -hiskio 購物車情境 demo-
+## Image
+[Image Resource](https://hiskio.com) by hiskio
 
-## Build Setup
+## Tech 
+- Nuxt.js 架構
+- Router 路由配置
+  * 首頁- /
+  * 購物車頁 /carts
+- TailwindCss 美觀
+- Vue-toasted 提示
+- Axios 抽象
+- Js-cookie
 
-```bash
-# install dependencies
-$ yarn install
+## Features
+- 登入機制
+    * 為了模擬Auth延長時效獲取新token的機制，所以緩存 ~~明碼~~ 在Cookie上撈取(很醜但臨時想不到更好的調法QQ)
+- 首頁
+    * 供正在募資中的課程列表資訊
+- 購物車頁-須先進行登入才可進入此頁
+    * 返回導址 - /
+    * 供購物車列表資訊呈現
+    * 供結帳小記顯示金額、折抵價錢
+    * 供正在募資中的課程列表資訊
+    * 供刪除購物車功能、列表及小計都會響應變化
+- 購物車列表 Cookie 緩存
+    * 不管有無有登入，只要按下加入都會先緩存在Cookie上，登入時進入購物車頁會再跟自己的清單合併刷新 Cookie
+- Loading Page
+- 404 Router 攔截
+- Meta tag og
+## Installation
+Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+Install the dependencies and devDependencies and start the server.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+```sh
+cd hiskio_frontend_platform
+yarn install
+yarn run dev
 ```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
