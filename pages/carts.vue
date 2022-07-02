@@ -440,7 +440,19 @@ export default {
       }
     },
     async addCart (id) {
-      const removeData = await this.$api.carts.create(id)
+      const form = {
+        items: [
+          {
+            coupon: '',
+            gid: '',
+            id,
+            pipeline: '',
+            source: ''
+          }
+        ],
+        coupons: []
+      }
+      const removeData = await this.$api.carts.create(form)
       if (!removeData.errorCode) {
         this.$toast.global.success('已加入購物車')
         this.initCart()
