@@ -45,6 +45,10 @@ export default class Carts {
       ],
       coupons: []
     }
+    // 移除購物車 Cookie
+    const oldIds = this._ctx.$cookies.get('cartsKeys') || []
+    const newIds = oldIds.filter(item => item === id)
+    this._ctx.$cookies.set('cartsKeys', newIds)
     return this._axios.$delete('/carts', {
       data
     })
