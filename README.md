@@ -1,4 +1,8 @@
 # hiskio_frontend_platform 徵才測驗
+
+### 首頁
+![index](./static/favicon.png)
+
 #### -hiskio 購物車情境 demo-
 ## Image
 [Image Resource](https://hiskio.com) by hiskio
@@ -17,6 +21,8 @@
 - 登入機制
     * 為了模擬Auth延長時效獲取新token的機制，所以緩存 ~~明碼~~ 在Cookie上撈取(很醜但臨時想不到更好的調法QQ)
     * 加入購物車功能
+- 導覽列
+    * 依據登入狀態顯示呈現
 - 首頁
     * 供正在募資中的課程列表資訊
 - 購物車頁-須先進行登入才可進入此頁
@@ -31,6 +37,20 @@
 - Loading Page
 - 404 Router 攔截
 - Meta tag og
+
+
+### 首頁
+![index](./static/pc-index.png)
+
+### 購物車頁
+![carts](./static/pc-carts.png)
+
+### 導覽列
+![carts](./static/pc-navbar.png)
+
+### RWD
+![carts](./static/rwed.png)
+
 ## Installation
 Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
 Install the dependencies and devDependencies and start the server.

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="fixed top-0 z-10 h-14 w-full bg-white shadow-md">
+    <header class="fixed top-0 z-30 h-14 w-full bg-white shadow-md">
       <div
         class="
           flex flex-wrap
@@ -235,11 +235,13 @@
         pt-14
         h-full
         w-screen
-        md:w-1/4
+        md:w-1/3
+        lg:w-1/3
+        xl:w-1/6
         wd:mr-auto
         bg-gray-50
         shadow-lg
-        z-5
+        z-20
       "
     >
       <div v-if="!isLogin" class="pt-4">

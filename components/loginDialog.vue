@@ -8,7 +8,7 @@
         top-0
         right-0
         left-0
-        z-10
+        z-30
         w-full
         md:inset-0
         h-modal
@@ -22,8 +22,8 @@
     >
       <div
         class="
-          lg:w-1/4
-          md:w-1/2
+          xl:w-1/4
+          lg:w-1/2
           w-full
           h-auto
           m-4

@@ -1,6 +1,6 @@
 <template>
   <div class="xl:w-1/2 px-2">
-    <div class="grid col-span-12 md:grid-cols-3 gap-4">
+    <div class="grid col-span-12 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-4">
       <div class="md:col-span-12">
         <div class="font-bold text-xl">
           <slot name="title" />
