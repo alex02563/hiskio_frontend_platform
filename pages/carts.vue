@@ -110,15 +110,15 @@
                     </div>
                   </td>
                 </tr>
-                <tr v-show="!carts.data">
-                  <td colspan="3" class="p-3 text-xl text-center font-medium">
+                <tr v-show="carts && carts.data && !carts.data.length">
+                  <td colspan="3" class="p-3 text-md text-center font-medium">
                     尚無資料
                   </td>
                 </tr>
               </tbody>
             </table>
 
-            <table class="shadow-lg md:hidden">
+            <table class="shadow-lg flex md:hidden">
               <tbody>
                 <tr
                   v-for="(list, idx) in carts.data"
@@ -193,7 +193,7 @@
                     </div>
                   </td>
                 </tr>
-                <tr v-show="!carts.data">
+                <tr v-show="carts && carts.data && !carts.data.length">
                   <td colspan="3" class="p-3 text-xl text-center font-medium">
                     尚無資料
                   </td>
